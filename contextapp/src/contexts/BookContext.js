@@ -11,7 +11,7 @@ const BookContextProvider = (props) => {
     ])
     return(
         <BookContext.Provider value = {{books}} >
-            {props.children};
+            {props.children}
         </BookContext.Provider>
     )
 }
