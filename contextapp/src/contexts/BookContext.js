@@ -1,8 +1,8 @@
-import React, {creaContext, useState} from 'react';
+import React, {createContext, useState} from 'react';
 
-export const BookContext = creaContext();
+export const BookContext = createContext();
 
-const BookContextProvider = ({props}) => {
+const BookContextProvider = (props) => {
     const [books, setBook] = useState([
         { title: 'name of the wind', id: 1 },
         { title: 'the way of kings', id: 2 },
